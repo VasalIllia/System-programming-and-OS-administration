@@ -21,4 +21,5 @@ cp %{SOURCE0} %{buildroot}/usr/local/bin/count_files.sh
 /usr/local/bin/count_files.sh
 
 %changelog
-
+* Tue Dec 3 2024 Illia Vasyliev <illia23@gmail.com> 1.0-1
+-
