@@ -38,7 +38,7 @@ jobs:
           cp count_files.spec ~/rpmbuild/SPECS/
           
       - name: Building rpm
-        run: rpmbuild -ba ~/rpmbuild/SEPCS/count_files.spec
+        run: rpmbuild -ba ~/rpmbuild/SPECS/count_files.spec
            
       - name: Preparing before building deb
         run: |
