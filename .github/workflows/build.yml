@@ -35,7 +35,7 @@ jobs:
         run: |
           mkdir -p ~/rpmbuild/{SOURCES,RPMS,SPECS,SRPMS,BUILD}
           cp count_files.sh ~/rpmbuild/SOURCES/
-          cp count_files.spec ~/rpmbuild/SEPCS/
+          cp count_files.spec ~/rpmbuild/SPECS/
           
       - name: Building rpm
         run: rpmbuild -ba ~/rpmbuild/SEPCS/count_files.spec
